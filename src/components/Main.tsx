@@ -13,11 +13,11 @@ export default class Main extends React.Component<MainProps, any> {
         <div className="banner">
           <img src={BannerImage} alt=""/>
         </div>
-        <div className="link-button">
+        {/* <div className="link-button">
           <a href="https://daum.net/">
             <button></button>
           </a>
-        </div>
+        </div> */}
       </div>
     );
   }
