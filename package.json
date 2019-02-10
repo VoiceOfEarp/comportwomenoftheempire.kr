@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "publish": "webpack --mode=production && python publish.py",
-    "build": "webpack --mode=production "
+    "build": "webpack --mode=production ",
+    "upload": "python publish.py"
   },
   "devDependencies": {
     "autoprefixer": "^9.4.7",

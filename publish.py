@@ -15,6 +15,8 @@ from azure.cosmosdb.table.tableservice import TableService
 from azure.cosmosdb.table.models import Entity
 from win32api import GetFileVersionInfo, LOWORD, HIWORD
 
+print('run upload')
+
 with open('publish.key.json') as f:
     data = json.load(f)
 
