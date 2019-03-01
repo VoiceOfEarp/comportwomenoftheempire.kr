@@ -9,5 +9,14 @@
       "experimentalDecorators": true,
       "lib": ["es2015", "es2016", "dom"]
     },
+    "exclude": [
+      "node_modules",
+      "build",
+      "scripts",
+      "acceptance-tests",
+      "webpack",
+      "jest",
+      "src/setupTests.ts"
+    ],
     "include": ["./src/**/*"]
   }

@@ -12,7 +12,6 @@ export default class Index extends React.Component<IndexProps, any> {
       <Router>
         <div>
           <Route exact path="/" component={MainPage} />
-          <Route exact path="/donation" component={DonationPage} />
         </div>
       </Router>
     );
