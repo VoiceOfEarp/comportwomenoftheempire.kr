@@ -14,12 +14,12 @@ export default class Main extends React.Component<MainProps, any> {
           <img src={BannerImage} alt=""/>
         </div>
         <div className="link-button">
-          <a href="https://voiceofearp.kr/">
+          <a href="https://voiceofearp.kr/donation">
             <button></button>
           </a>
         </div>
         <div className="link-button2">
-          <a href="https://voiceofearp.kr/">
+          <a href="https://voiceofearp.kr/donation">
             <button></button>
           </a>
         </div>
