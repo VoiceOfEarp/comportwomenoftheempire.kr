@@ -14,11 +14,8 @@ export default class Main extends React.Component<MainProps, any> {
           <img src={BannerImage} alt=""/>
         </div>
         <div className="link-button">
-          <a href="https://voiceearp.blob.core.windows.net/download/comportwomenoftheempire.kr/%ED%99%88%ED%94%BC_%EA%B8%B0%EB%B6%80%EA%B8%88%20%EB%B3%B4%EA%B3%A02021.pdf">
+          <a href="https://voiceofearp.kr/donation">
             <button>
-              <div>
-                기부금 모집 보고
-              </div>
             </button>
           </a>
         </div>
