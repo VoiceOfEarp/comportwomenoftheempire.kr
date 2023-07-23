@@ -13,7 +13,7 @@ from azure.storage.blob import PublicAccess
 from azure.storage.blob import ContentSettings
 from azure.cosmosdb.table.tableservice import TableService
 from azure.cosmosdb.table.models import Entity
-from win32api import GetFileVersionInfo, LOWORD, HIWORD
+# from win32api import GetFileVersionInfo, LOWORD, HIWORD
 
 print('run upload')
 
